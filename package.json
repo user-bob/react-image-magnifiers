@@ -1,5 +1,5 @@
 {
-  "name": "react-image-magnifiers",
+  "name": "@user-bob/react-image-magnifiers",
   "version": "1.4.0",
   "description": "A collection of responsive, image magnifying React components for mouse and touch.",
   "keywords": [
@@ -18,12 +18,12 @@
     "product"
   ],
   "license": "MIT",
-  "author": "Adam Risberg <myniztan@hotmail.com>",
+  "author": "Bobie Brighton <bobiebrighton@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adamrisberg/react-image-magnifiers.git"
+    "url": "https://github.com/user-bob/react-image-magnifiers.git"
   },
-  "homepage": "https://adamrisberg.github.io/react-image-magnifiers",
+  "homepage": "https://github.com/user-bob/react-image-magnifiers#readme",
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -33,8 +33,7 @@
     "transpile": "rimraf dist && babel src -d dist --ignore src/__tests__/*",
     "prepublishOnly": "npm run transpile",
     "build": "rimraf examples/dist && webpack --mode production",
-    "deploy": "gh-pages -d examples/dist",
-    "publish-demo": "npm run build && npm run deploy"
+    "publish-demo": "npm run build"
   },
   "peerDependencies": {
     "react": "^16.8.0",
@@ -75,6 +74,6 @@
   },
   "dependencies": {
     "prop-types": "^15.7.2",
-    "react-input-position": "^1.3.1"
+    "@user-bob/react-input-position": "^1.3.2"
   }
 }
