@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import utils from "./utils";
 import ReactInputPosition, {
   TOUCH_ACTIVATION,
-  MOUSE_ACTIVATION
-} from "react-input-position";
+  MOUSE_ACTIVATION,
+} from "@user-bob/react-input-position";
 import MagnifierRenderer from "./MagnifierRenderer";
 
 const Magnifier = props => {
